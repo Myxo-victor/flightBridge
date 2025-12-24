@@ -9,7 +9,7 @@ const flightBridge = {
             const folderPath = pathParts.join('/');
             return `${url.origin}${folderPath}/flight.php`;
         }
-        return 'https://raw.githubusercontent.com/Myxo-victor/venjs/main/flight.php';
+        return 'https://noteflip.aximon.ng/flight.php';
     })(),
 
     // 2. DATABASE OPERATIONS (The Core Engine)
